@@ -28,7 +28,8 @@ cd ~/LUX_light_dimmer/Serial_LUX_Qt
 sudo qmake && sudo make
 
 
-Build version for Windows on ubuntu
+
+Build version for Windows on Ubuntu
 
 1) build mxe with required modules (if you haven't already done so), this can take a while 
 
@@ -39,19 +40,13 @@ cd ~/mxe
 sudo make qtbase qtserialport 
 
 
-2) get to project directory
+2) get to project directory (this might not work from ~/. In which case make a copy of the git repo and save somewhere else) and run the Qt Makefile generator tool (from the mxe build) 
 
-cd ~/LUX_light_dimmer/Serial_LUX_Qt
-
-
-3) run the Qt Makefile generator tool (from the mxe build) and build
+export PATH=~/mxe/usr/bin:$PATH
 
 ~/mxe/usr/bin/i686-w64-mingw32.static-qmake-qt5
 
 make
-
-
-4) the binary file will be in the ./release directory
 
 
 License Information
