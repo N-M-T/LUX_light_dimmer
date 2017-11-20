@@ -23,7 +23,7 @@ Build on Ubuntu (need Qt5 and git):
 
 sudo git clone https://github.com/N-M-T/LUX_light_dimmer
 
-cd ~/Lux_light_dimmer/Serial_LUX_Qt
+cd ~/LUX_light_dimmer/Serial_LUX_Qt
 
 sudo qmake && make
 
