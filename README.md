@@ -25,7 +25,7 @@ sudo git clone https://github.com/N-M-T/LUX_light_dimmer
 
 cd ~/Lux_light_dimmer/Serial_LUX_Qt
 
-sudo make
+sudo qmake && make
 
 Build version for Windows on ubuntu
 
